@@ -1,0 +1,47 @@
+/* File Location: /css/global/main.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    width: 667px;
+}
+
+nav {
+    box-shadow: 1px 1px 5px #CECECE;
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #EEE;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #111;
+}
+
+li:last-child {
+    border-right: 10px solid #555;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 17px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #333;
+    color: white;
+}
+
+.active {
+    background-color: #333;
+    color: white;
+}
